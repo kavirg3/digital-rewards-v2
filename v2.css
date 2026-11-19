@@ -187,3 +187,11 @@
 .v2-hero .l{flex:1 1 440px;min-width:0;display:flex;flex-direction:column;gap:22px}
 .v2-hero .r{flex:1 1 400px;min-width:0;position:relative}
 .v2-bento .w4{grid-column:1/-1}
+
+/* Wallet badges: Apple Wallet + Google Wallet (19 Nov) */
+.wa-chips{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;font-size:13px;color:#A9BDDF}
+.wa-chip{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px 0 10px;border-radius:10px;font-size:13px;font-weight:600;line-height:1;white-space:nowrap}
+.wa-chip.ap{background:#000;color:#fff;border:1px solid rgba(255,255,255,.35)}
+.wa-chip.gg{background:#fff;color:#1F1F1F;border:1px solid #fff}
+.wa-chip small{display:block;font-size:9px;font-weight:500;opacity:.75;margin-bottom:2px}
+.wa-chips.sm .wa-chip{height:30px;font-size:12px}
